@@ -1,5 +1,5 @@
 sudo: required
-service: docker
+services: docker
 before:_install: 
   - docker-compose up --build -d
 
